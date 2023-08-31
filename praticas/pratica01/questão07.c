@@ -14,6 +14,5 @@ int main() {
 
     printf("\nAltura: %.2fm\nDistância: %.2fm\nSeno: %.2f° graus\n\n", altura, distancia, seno_angulo);
 
-
     return(0);
 }
