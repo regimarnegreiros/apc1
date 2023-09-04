@@ -7,11 +7,11 @@
 int main() {
   setlocale(LC_ALL, "Portuguese_Brazil");
   
-  float pi = 3.1416f;
+  const float PI = 3.1416f;
   int raio = 7;
-  float perimetro = 2 * pi * raio;
+  float perimetro = 2 * PI * raio;
 
-  printf("\nPi: %.4f \nRaio: %dcm\nPerímetro: %.2fcm\n\n", pi, raio, perimetro);
+  printf("\nPi: %.4f \nRaio: %dcm\nPerímetro: %.2fcm\n\n", PI, raio, perimetro);
   
   return 0;
 }
