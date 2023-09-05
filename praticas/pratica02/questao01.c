@@ -1,3 +1,5 @@
+//FaÃ§a um programa em C que leia trÃªs nÃºmeros reais e imprima a mÃ©dia aritmÃ©tica destes nÃºmeros.
+
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
@@ -9,18 +11,18 @@ int main() {
     float num2;
     float num3;
 
-    printf("\nInsira o número 1: \n");
+    printf("\nInsira o nï¿½mero 1: \n");
     scanf("%f",&num1);
 
-    printf("Insira o número 2: \n");
+    printf("Insira o nï¿½mero 2: \n");
     scanf("%f",&num2);
 
-    printf("Insira o número 3: \n");
+    printf("Insira o nï¿½mero 3: \n");
     scanf("%f",&num3);
 
     float media = (num1 + num2 + num3) / 3;
 
-    printf("A média aritimética é: %f\n\n", media);
+    printf("A mï¿½dia aritimï¿½tica ï¿½: %f\n\n", media);
 
     return 0;
 }
