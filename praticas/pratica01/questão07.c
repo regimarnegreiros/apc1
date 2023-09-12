@@ -7,12 +7,12 @@
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    float altura = 7.0f;
+    float seno = sin(45);
     float distancia = 10.0f;
 
-    float seno_angulo = altura / distancia;
+    float altura = seno * distancia;
 
-    printf("\nAltura: %.2fm\nDistância: %.2fm\nSeno: %.2f° graus\n\n", altura, distancia, seno_angulo);
+    printf("\nAltura: %.2fm\nDistância: %.2fm\nSeno: %.2f° graus\n\n", altura, distancia, seno);
 
     return(0);
 }
