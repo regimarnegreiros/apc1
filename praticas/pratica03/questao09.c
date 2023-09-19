@@ -5,9 +5,9 @@
 int main(void) {
     int i;
     float maior = 0;
-    float valores[10] = {0, 1, 2, 3, 45.7, 5, 6, 7, 8, 9};
+    float valores[10] = {1000, 1, 2, 3, 45.7, 5, 6, 7, 8, 9000};
 
-    for(i = 1; i <= 10; i++) {
+    for(i = 0; i <= 10; i++) {
         if (maior < valores[i]) {
             maior = valores[i];
         }
